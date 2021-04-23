@@ -13,7 +13,7 @@
   </head>
   <body>
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand navbar-light bg-light">
   <a class="navbar-brand" href="#">Ty Heisler</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,24 +21,86 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#main-content">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutsection">About</a>
       </li>
     </ul>
     <span class="navbar-text">
-      Twitter icon
+      <!--maybe put something else here-->
+      <a class="navbar-iconlink" href="https://twitter.com/heist_ty" target="_blank" aria-label="twitter">
+        <i class="fab fa-twitter fa-spin"></i>
+      </a>
     </span>
   </div>
 </nav>
 <!-- main -->
+<div class="container-fluid text-center" id="main-content">
+  <div class="row">
+    <div class="col text-center border-right" id="intro">
+      <h1>Ty Heisler</h1>
+      <h3><small class="text-muted">Full Stack Web Developer</small></h3>
+    </div>
+      <div class="col-md-auto" id="intro">
+        <div class="socialicon" id="icons">
+           <a class="iconlink" href="https://twitter.com/heist_ty" target="_blank" aria-label="twitter">
+             <i class="fab fa-twitter fa-4x"></i>
+          </a>
+        </div>
+      <div class="socialicon" id="icons">
+         <a class="iconlink" href="https://www.twitch.tv/usedsubaruoutback" target="_blank" aria-label="twitter">
+            <i class="fab fa-twitch fa-4x"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid text-center" id="portfolio">
+      
+      <div class="row portfolioRow">
+        <div class="col-12 img_wrap" id="work">
+         <a href="https://inspiring-knuth-53729d.netlify.app/" target="_blank" id="thumbnail">
+          <img src="./photos/airbnbnbnbnbnbnbnbnbnb.png" class="img-fluid" alt="repsonsive image">
+         </a>
+         <p class="img_description align-middle">Airbnb Clone | HTML | CSS</p>
+        </div>
+        <div class="col-12 img_wrap" id="work">
+          <a href="https://keen-brahmagupta-eb3989.netlify.app/" target="_blank" id="thumbnail">
+          <img src="./photos/appleeee.png" class="img-fluid" alt="repsonsive image">
+          </a>
+          <p class="img_description align-middle">Apple Clone | HTML | CSS</p>
+        </div>
+        <div class="col-12 img_wrap" id="work">
+          <a href="https://elated-archimedes-d25553.netlify.app/" target="_blank" id="thumbnail">
+          <img src="./photos/newsweeeek.png" class="img-fluid" alt="repsonsive image">
+          </a>
+          <p class="img_description align-middle">Newsweek Clone | HTML | CSS</p>
+        </div>
+        <div class="col-12 my-auto soon" id="work">
+          <h4>Coming Soon</h4>
+        </div>
+      </div>
+    </div>
 
-<!-- portfolio -->
+  <div class="container-fluid text-center" id="aboutsection">
+    <div class="row">
+      <div class="col">
+      
+        <h4 class="text-center header">About Me</h4>
+       </div> 
+         <div class="col"> 
+           <p class="text-center">I am currently learning full stack web developement through Altcademy, I enjoy playing music and watching movies on my free time.  My portfolio will grow as I learn more.  Stay tuned!</p>
+         </div>  
+    </div>
+  </div>
+</div>
 
-  </body>
+
+</body>
 
 <footer>
-<!-- about -->
-  </footer>
+</footer>
 </html>
